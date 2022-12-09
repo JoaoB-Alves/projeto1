@@ -1,0 +1,189 @@
+@media screen and (max-width: 700px) and (min-width: 100px){
+	header{
+		background-size: cover;
+	    background-position-x: 20%;
+	}
+	.menu-ul{
+		display: none;
+	}
+	.hero-image{
+		display: none;
+	}
+	.hero-container{
+		justify-content: center;
+	}
+	.fold-text-container{
+		width: 100%;
+	}
+	.playnow-container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.hidden-fold-button{
+		display: flex;
+	}
+	.introdution-container{
+		flex-direction: column;
+	}
+	.preview-container{
+		flex-direction: column;
+	}
+	.story{
+		max-width: 100%;
+		background-color: #212121;
+		opacity: 80%;
+	}
+	.calc-block5{
+		background-size: cover;
+		padding: 0 0;
+	}
+	.hidden-menu-container{
+		display: flex;
+	}
+	.hidden-menu-ul{
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+	}
+	.block-calc1{
+	align-self: stretch;
+}
+        
+}
+
+@media screen and (max-width: 480px) and (min-width: 100px){
+	.characters-select-container{
+		flex: 2;
+		flex-wrap: wrap;
+		display: flex;
+	}
+	.character3, .character2{
+		margin-top: 20px;
+	}
+	.character1, .character2,.character3{
+		width: 100%;
+	}
+	.character3-info,.character2-info,.character1-info{
+		display: none;
+	}
+	.characters-section{
+		padding: 20px 0;
+	}
+	.introdution-text > p{
+		text-align: center;
+	}
+	.two-cards-container{
+		flex: 2;
+	}
+	.card1,.card2,.card3,.card4{
+		width: 100%;
+	}
+	.bigcard1,.bigcard2,.bigcard3,.bigcard4{
+		width: 100%;
+	}
+	.backlink-container{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.backlink1,.backlink2,.backlink3{
+		padding: 10px 0;
+	}
+	.fold-text-container{
+		text-align: center;
+	}
+	.preview-text-container > p{
+		text-align: center;
+	}
+	.outside-cards-container{
+		padding-top: 20px;
+	}
+	.video-redirect-container{
+		display: flex;
+	}
+	.calc-block5{
+		background-size: cover;
+	    background-position: 60%;
+	}
+	.hero {
+		padding: 20px 0;
+	}
+	.story > p {
+    text-align: center;
+    }
+    .playnow-space{
+		margin-left: 20px;
+	}
+	.hidden-fold-button{
+		margin-right: 20px;
+	}
+	.story-button-container{
+		justify-content: center;
+		padding: 20px 0;
+	}
+}
+
+@media screen and (max-width: 340px) and (min-width: 100px){
+	.playnow-container{
+		flex-direction: column;
+		justify-content: center;
+	}
+	.hidden-fold-button{
+		margin-top: 20px;
+		margin-right: 0;
+	}
+	.logo{
+		width: 111px;
+		height: 111px;
+	}
+	.two-cards-container{
+		flex-wrap: wrap;
+
+	}
+	.outside-cards-container{
+		flex-wrap: wrap;
+	}
+	.two-cards-container2{
+		flex-wrap: wrap;
+	}
+	.outside-cards-container2{
+		flex-wrap: wrap;
+	}
+	.bigcard2,.bigcard4{
+		margin-top: 20px;
+	}
+	.about-section,.howtoplay-section{
+		padding: 20px 0;
+	}
+	.preview-text-container,.introdution-text,.characters-container,.story{
+		padding: 20px 0;
+	}
+	.fold-text-container > h1 {
+    font-size: 1.3em;
+    }
+    .preview-text-container > h3{
+    font-size: 1em;
+    }
+    .playnow-space{
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 250px) and (min-width: 100px){
+	.video-redirect-container{
+		justify-content: center;
+	}
+	.story-button-container{
+		justify-content: center;
+	}
+	.footer-items-container{
+		flex-direction: column;
+		justify-content: center;
+	}
+	.credits{
+		padding: 40px 0;
+	}
+	.fold-text-container > h1 {
+    font-size: 1.2em;
+    }
+}
